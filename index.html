@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+		header{
+			width:1000px;
+			height:100px;
+			margin-top:10px;
+			border:solid 1px #cccccc;
+		}
+		#logo{
+			margin-top:20px;
+			float:left;
+		}
+		#top{
+			float:right;
+			margin: 30px 20px 0 0;
+		}
+		nav{
+			width:1000px;
+			height: 70px;
+			margin-top:10px;
+			border:solid 1px #cccccc;
+
+
+		}
+		nav li{
+			float:left;/*이거 지워지면 세로로 보여짐*/
+			margin:20px 50px;
+
+		}
+		li{
+			list-style-type:none;
+		}
+		section{
+			float:left;
+			margin-top:10px;
+			border:solid 1px #cccccc;
+		}
+		aside{
+			float:/*right*/left;
+			margin-left:/*30px*/27px;
+			margin-top:10px;
+			border:solid 1px #cccccc;
+		}
+		aside li{
+			margin-bottom:20px;
+		}
+		footer{
+			width:1000px;
+			height:100px;
+			margin-top:10px;
+			border:solid 1px #ccccc;
+		}
+
+		#address{
+			float:left;
+			margin:30px 0 0 20px;
+		}
+
+		#customer{
+			float:right;
+			margin:30px 0 0 180px;
+		}
+
+/*aside를 dorp로 만들어라
+		헤드 푸터 세션 네비게이션 스메티 태그 5개 있어야함
+		1. header/footer/section/nav
+		2. drop down 으로 sub 만들기(contents 는 없어도됨)
+		3. 테마/기획안*/
+		
+	</style>
+</head>
+<body>
+	<header>
+		<div id='logo'>
+			강아지와의 공생하는 삶
+		<div id='top'>
+			로그인| 회원가입| 마이페이지| 고객센터
+		</div>
+	</header>
+
+		<div class='clear'></div><!--float 속성 해제-->
+		<nav>
+			<ul>
+				<li>강아지 종</li>
+				<li>잡종</li>
+				<li>사료의 위험성</li>
+				<li>강아지를 잘 키우려면</li>
+				<li>이벤트</li>
+			</ul>
+		</nav>
+
+		<div class='clear'></div><!--float 속성 해제-->
+		<section>
+			<img src='./img/main.jpg' width="810">
+		</section>
+		<aside>
+			<ul>
+				<li>산책하기 좋은 장소 best!</li>
+				<li>오늘의 지식</li>
+				<li>함께하는 식사</li>
+				<li>이벤트</li>
+			</ul>
+		</aside>
+		<section clear='clear'>
+			<img src='./img/puppy.jpg'width=1000>
+		</section>
+
+		<footer>
+			<div id='address'>
+				주최: 영상게임 콘텐츠과 김민지<br>
+				주관: 영상게임 콘텐츠과 김민지
+			</div>
+			<div id='customer'>
+				관광안내전화: 국번없이 1330
+			</div>
+		</footer>
+		
+</body>
+</html>
