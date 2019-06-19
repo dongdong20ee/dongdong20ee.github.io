@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+    <style>
+        table{
+            border-collapse: collapse;
+
+        }
+
+        .col1{
+                background-color: #F29661;
+                font-weight:bold;
+                padding:5px;
+
+            }
+            *{
+
+            }
+
+            /*버튼의 크기,모양스타일*/
+            .btn{
+                width:70px;
+                margin: 0 10px;
+                padding:10px;
+                border: none;
+                font-size:13px;
+
+            }
+            /*버튼에 마우스를 올려놓았을 때*/
+            .btn:hover{
+                opacity:0.5;
+            }
+            /*버튼 누른 시간*/
+            .btn:active{
+                color:green;
+            }
+            input:focus{
+            background-color: #F29661;
+        }
+        
+    </style>
+</head>
+<body>
+    <div align="center"><h3>회원 가입</h3>
+<form>
+    <table width=600 height=550 border="2">
+    	<tr>
+
+    		<td class='col1'>이름</td>
+            <td><input type="text" placeholder="홍길동"> </td>
+            
+        </tr>
+
+        <tr>
+
+    		<td class='col1'>비밀번호</td>
+            <td><input type="password"></td>
+            
+        </tr>
+        <tr>
+
+    		<td class='col1'>성별</td>
+            <td><label><input type="radio" name="gender">여성</label><label><input type="radio" name="gender">남성</label></td>
+            
+        </tr>
+        <tr>
+
+    		<td class='col1'>사이트 방문 경유</td>
+            <td><label><input type="checkbox">tv 광고</label><label><input type="checkbox">지인 소개</label><label><input type="checkbox">인터넷 검색</label>
+           <label> <input type="checkbox">유튜브</label></td>
+            
+        </tr>
+        <tr>
+
+    		<td class='col1'>선호 견종</td>
+            <td>
+            	<select>
+            		<option>믹스</option>
+            <option>닥스훈트</option>
+        <option>골든 리트리버</option>
+    <option>레브라도 리트리버</option>
+    <option>시츄</option>
+            <option>말티즈</option>
+        <option>치와와</option>
+    <option>비숑</option>
+    <option>푸들</option>
+            <option>퍼그</option>
+        <option>불도그</option>
+    <option>웰시코기</option>
+    <option>셰퍼드</option>
+        <option>하운드</option>
+    <option>말라뮤트</option>
+    <option>아펜핀셔</option>
+            <option>퍼그</option>
+        <option>차우차우</option>
+    <option>보더콜리</option>
+    <option>시바</option>
+        <option>비글</option>
+    <option>사모예드</option>
+    <option>진돗개</option>
+        <option>불테리어</option>
+    <option>아이리시테리어</option>
+    <option>아키타</option>
+            <option>스피노네이탈리아노</option>
+        <option>시베리안 허스키</option>
+    <option>스페니쉬마스티프</option>
+     <option>그 외</option>
+</select>
+</td>
+            
+        </tr>
+        <tr>
+
+    		<td class='col1'>프로필 사진</td>
+            <td><input type="file" name=""> </td>
+            
+        </tr>
+        <tr>
+
+    		<td class='col1'>이메일</td>
+            <td><input type="email" placeholder="정확한 이메일을 넣으세요">
+            	<input type="submit" value="확인"name="확인 전송"></td>
+            
+        </tr>
+        
+        <tr>
+
+    		<td class='col1'>필요한 정보</td>
+            <td><textarea rows=10 cols=50 placeholder="이곳에 필요한 정보들을 적어주시면 홈페이지에 정보가 올라옵니다."></textarea></td>
+            
+        </tr>
+        <tr>
+
+    		<th  colspan="2"> <input type="button" onclick="location.href='index.html' "
+ class="btn"  name="확인 전송" value="취소">
+
+            <input type="button" onclick="location.href='welcome.html' "class="btn"  name="확인 전송" value="가입" ></a></th>
+            
+            
+        </tr>
+    </table>
+</div>
+</form>
+
+</body>
+</html>
